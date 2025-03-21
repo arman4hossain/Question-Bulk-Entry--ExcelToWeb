@@ -4,6 +4,7 @@ const path = require('path');
 require('dotenv').config();
 
 const csvUploadRoutes = require('./routes/csvUpload');
+const authRoutes = require('./routes/auth');
 
 const app = express();
 
@@ -15,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-
+app.use('/api/auth', authRoutes);
 app.use('/api/csv', csvUploadRoutes);
 
 
