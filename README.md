@@ -32,7 +32,6 @@ This is the **backend API** for the Question Dumping Site — a tool for edtech 
 
 © 2025 Arman Hossain. All rights reserved.
 
-This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute this project for personal or commercial purposes, but attribution is appreciated.
 
 Please feel free to contribute or fork, and drop a ⭐ if you find it helpful!
